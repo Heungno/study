@@ -1,0 +1,27 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "공부중",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heungno/study.git"
+  },
+  "author": "흥노",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heungno/study/issues"
+  },
+  "homepage": "https://github.com/Heungno/study#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
