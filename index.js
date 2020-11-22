@@ -18,4 +18,5 @@ const authRoute = require("./routes/auth");
 //Route Middlewares
 app.use("/api/user", authRoute);
 
-app.listen(3000, () => console.log("서버 스타트"));
+const port = process.env.PORT || 3000;
+app.listen(3000, () => console.log(` ${ port } 포트로 서버 스타트`));

@@ -6,12 +6,9 @@
   "scripts": {
     "start": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Heungno/study.git"
-  },
+  "repository": "git+https://github.com/Heungno/study.git",
   "author": "흥노",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Heungno/study/issues"
   },
