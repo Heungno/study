@@ -20,3 +20,5 @@ app.use("/api/user", authRoute);
 
 const port = process.env.PORT || 3000;
 app.listen(3000, () => console.log(` ${ port } 포트로 서버 스타트`));
+
+
